@@ -1,0 +1,227 @@
+<html>
+     <head> 
+     
+          <meta charset="utf-8" />
+          <meta name="robots" content="noodp,noydir" />
+          <meta name="description" content="¡Bienvenido a Facebook en Español! Facebook es una herramienta social que pone en contacto a personas con sus amigos y otras personas que trabajan, estudian y viven en su entorno. Facebook se emplea para estar en contacto con amigos, cargar un número ilimitado de fotos, compartir enlaces y vídeos, y saber más sobre las personas conocidas." />
+          
+          <link rel="stylesheet" href="menu_style.css" type="text/css" media="screen" />
+          
+          <!-- scrip para click derecho// --> 
+<script language=JavaScript> 
+
+
+
+
+var message="Función Desactivada! Derechos Reservados por Grupo Sovi."; 
+
+/////////////////////////////////// 
+function clickIE4(){ 
+if (event.button==2){ 
+alert(message); 
+return false; 
+} 
+} 
+
+function clickNS4(e){ 
+if (document.layers||document.getElementById&&!document.all){ 
+if (e.which==2||e.which==3){ 
+alert(message); 
+return false; 
+} 
+} 
+} 
+
+if (document.layers){ 
+document.captureEvents(Event.MOUSEDOWN); 
+document.onmousedown=clickNS4; 
+} 
+else if (document.all&&!document.getElementById){ 
+document.onmousedown=clickIE4; 
+} 
+
+document.oncontextmenu=new Function("alert(message);return false" ) 
+
+
+</script>
+          <title>
+              Crograletsa
+          </title>
+          
+     </head>
+     <body>
+          <header>
+               <figure class="banners">
+               
+                    <figure class="banner">
+                    
+                    </figure>
+                    <figure>
+                         <img class="logo" src="images/logo.png" alt="" />
+                    
+                    </figure>
+                    
+               </figure>
+               <menu class="principal">
+                    <nav>
+                         <ul id="menu">
+                                   <li><a href="#" title="">Contratos</a></li>
+                                   <li><a href="#" title="">Productos</a></li>
+                                   <li><a href="#" title="">¿Quiénes somos?</a></li>
+                                   <li><a href="#" title="" class="current">Inicio</a></li>
+                         </ul>
+                    </nav>
+               </menu>          
+          
+          </header>
+          <section>
+               <article>
+               </article>
+               <aside>
+               
+               </aside>
+          </section>
+          <footer>
+               <aside class="contactanos">
+                    <h2>Contactanos</h2>
+                    <form action="enviar.php" method="post">
+                         <table class="formulario">
+                              <tr> <td>Nombre: </td> <td> <input type="text" name="nombre" id="nombre" /> </td></tr>
+                              <tr> <td>Correo: </td> <td> <input type="text" name="correo" id="correo" /> </td></tr>
+                              <tr> <td> Comentario </td><td> <textarea name="comentario"></textarea></td></tr>
+                              <tr> <td>  </td><td> <input type="submit" name="enviar" id="enviar"/></td></tr>
+                                  
+                         </table>
+                    </form>
+               </aside>
+               <article>
+               
+                    <nav>
+                         <ul class="menu-footer"> 
+                              <li> <a href="#"> Inicio </a></li>
+                              <li> <a href="#"> ¿Quiénes somo? </a></li>
+                              <li> <a href="#"> Productos </a></li>
+                              <li> <a href="#"> Contáctanos </a></li>
+                         </li>
+                    </nav> 
+                    
+                    <nav>
+                         <ul class="menu-productos"> 
+                              <li> <a href="#"> Letreros </a></li>
+                              <li> <a href="#"> Impresoras </a></li>
+                              <li> <a href="#"> Estructuras </a></li>
+                              <li> <a href="#"> Señalética </a></li>
+                         </li>
+                    </nav> 
+               </article> 
+               <article class="derechos">
+                    <img src="images/logoabajo.png" /> 
+                    <address>Av. Juan tanca Marengo Frente al MALL del Sol</address> 
+               </article>
+               
+          </footer>
+          
+          
+          
+          
+          
+     
+     </body>
+</html>  
+<style>
+     body{
+          padding-top:30px;
+     }
+     .logo{margin-top:12px;}
+     *{
+          font-family:verdana;
+          margin:0px;
+          padding:0px;
+     }
+     .principal{margin-top:-23px;}
+     .menu-footer li{
+          display:inline;
+          
+          padding-right:10px;
+          padding-left:10px;
+     }
+     
+     .menu-productos {
+          margin-left:258px;
+     }
+     .menu-productos li{
+          color:#546F7D;
+          list-style:square;
+          
+     }
+     .menu-productos li a{
+          color: #546F7D;
+          text-decoration:none;
+     }
+     .menu-footer{
+          padding:10px;
+          
+     }
+     .menu-footer li a{
+          color:#0079B2;
+          text-decoration:none;
+     }
+     footer{
+     }
+     header{
+         padding-bottom: 10px;
+         padding-left: 2px;
+         padding-right: 2px;
+     }
+     header, section, footer{
+          width:900px;
+          margin-left:auto;
+          margin-right:auto;
+          
+          box-shadow: 2px 2px 5px #999;
+     }
+     section{
+          height:300px;
+     }
+     .banner{
+     
+          height:100px;
+          background:url("images/banner.png") ;
+          width:454px;
+          float:right;    margin-right: 85px;
+          
+     }
+     .banners{
+          heght:130px;
+          }
+          .derechos address{
+               float:right;   
+               font-family: verdana;
+               font-size: 11px;margin-right: 96px;
+    margin-top: 14px;
+          }
+          .derechos{    
+               margin-left: 13px;
+               margin-top: 35px;
+               color:white;
+          }
+     footer{
+          background: #060606; /* Old browsers */
+          background: -moz-linear-gradient(left, #060606 0%, #2e2e2e 100%); /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%,#060606), color-stop(100%,#2e2e2e)); /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(left, #060606 0%,#2e2e2e 100%); /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(left, #060606 0%,#2e2e2e 100%); /* Opera11.10+ */
+          background: -ms-linear-gradient(left, #060606 0%,#2e2e2e 100%); /* IE10+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#060606', endColorstr='#2e2e2e',GradientType=1 ); /* IE6-9 */
+          background: linear-gradient(left, #060606 0%,#2e2e2e 100%); /* W3C */
+          height:200px;
+     }
+     .formulario{ color:white;}
+     .contactanos{
+          float:right;    
+          margin-right: 41px;
+          color:white;
+          margin-top: 12px;
+          
+     }
+</style>

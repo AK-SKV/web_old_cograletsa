@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+    	<script type="text/javascript">
+        	var GB_ROOT_DIR = "./greybox/";
+    	</script>
+    	<script type="text/javascript" src="greybox/AJS.js"></script>
+    	<script type="text/javascript" src="greybox/AJS_fx.js"></script>
+   	 	<script type="text/javascript" src="greybox/gb_scripts.js"></script>
+    	<link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" media="all" />
+	    <script type="text/javascript" src="static_files/help.js"></script>
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="menu_style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+     	<link rel="stylesheet" type="text/css" href="estilo.css" />
+
+        <!-- scrip para click derecho -->
+		<script language=JavaScript> 
+			var message="Función Desactivada! Derechos Reservados por Grupo Sovi."; 
+			/////////////////////////////////// 
+			function clickIE4(){ 
+				if (event.button==2){ 
+					alert(message); 
+					return false; 
+				} 
+			} 
+			function clickNS4(e){ 
+				if (document.layers||document.getElementById&&!document.all){ 
+					if (e.which==2||e.which==3){ 
+						alert(message); 
+						return false; 
+					} 
+				} 
+			} 
+			if (document.layers){ 
+				document.captureEvents(Event.MOUSEDOWN); 
+				document.onmousedown=clickNS4; 
+			} //https:box499.bluehost.com:2083/frontend/bluehost/filemanager/editit.html?file=index.html&fileop=&dir=%2Fhome7%2Fgruposov%2Fpublic_html%2Fcograletsa&dirop=&charset=&file_charset=utf-8&baseurl=&basedir=&codeedit=1
+			else if (document.all&&!document.getElementById){ 
+				document.onmousedown=clickIE4; 
+			} 
+			document.oncontextmenu=new Function("alert(message);return false" ) 
+
+		</script>
+		
+		<script type="text/javascript">
+  			var _gaq = _gaq || [];
+  			_gaq.push(['_setAccount', 'UA-25456616-1']);
+  			_gaq.push(['_setDomainName', '.gruposovi.com']);
+  			_gaq.push(['_trackPageview']);
+  			(function() {
+    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  			})();
+		</script>
+          
+        <title>Cograletsa</title>
+	</head>
+    <body onLoad="initialize()">
+    <div id="wrapper">
+    	<div id="header">
+        	<div class='nav-company'>
+        		<ul>
+                	<li class="inicio"> <a href="http://www.gruposovi.com">Grupo Sovi</a> </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </div>
+            <div class="banners">
+            	<div class="banner"></div>
+                <div><img class="logo" src="images/logo.png" alt="" /></div>
+            </div>
+            <div class="principal">
+        		<div>
+                	<ul id="menu">
+                    	<li><a href="oportunidad.html" title="">Oportunidades de trabajo</a></li>
+                        <li><a href="productosrecientes.php" title="">Trabajos Recientes</a></li>
+                        <li><a href="contacto.html" title="" class="current">Contacto</a></li>
+                        <li><a href="productos.html" title="">Productos</a></li>
+                        <li><a href="quienes.html" title="">¿Quiénes somos?</a></li>
+                        <li><a href="index.html" title="">Inicio</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        <div class="page">
+        	<div class="content-left">              
+				<table class="direccioncontacto"><tr><td>
+					<iframe width="350" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=-2.156429,-79.89426&amp;daddr=&amp;hl=es&amp;geocode=FXMY3_8dDOk8-w&amp;aq=&amp;sll=10.660608,-61.523437&amp;sspn=46.951958,93.076172&amp;vpsrc=6&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=-2.155966,-79.894488&amp;spn=0.007505,0.00912&amp;z=16&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=-2.156429,-79.89426&amp;daddr=&amp;hl=en&amp;geocode=FXMY3_8dDOk8-w&amp;aq=&amp;sll=10.660608,-61.523437&amp;sspn=46.951958,93.076172&amp;vpsrc=6&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=-2.155966,-79.894488&amp;spn=0.007505,0.00912&amp;z=16" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+						<br /><br />Av. Juan Tanca Marengo Km 1, frente al Mall del Sol.
+				</td></tr></table>
+                <form action="mail.php" method="post">
+                	<table class="contacto">
+                    	<tr><td><table height="320" class="contacto">
+                        	<tr>
+                          		<td>Nombre: </td>
+                          		<td><input type="text" name="nombre" id="nombre" /></td>
+                        	</tr>
+                        	<tr>
+                          		<td>Apellido: </td>
+                          		<td><input type="text" name="apellido" id="apellido" /></td>
+                        	</tr>
+                        	<tr>
+                          		<td>Empresa: </td>
+                          		<td><input type="text" name="empresa" id="empresa" /></td>
+                        	</tr>
+                       	 	<tr>
+                          		<td>Correo: </td>
+                          		<td><input type="text" name="correo" id="correo" /></td>
+                        	</tr>
+                        	<tr>
+                          		<td>Teléfono: </td>
+                          		<td><input type="text" name="telefono" id="telefono" /></td>
+                        	</tr>
+                        	<tr>
+                          		<td> Comentario </td>
+                          		<td><textarea name="comentario"></textarea></td>
+                        	</tr>
+                        	<tr>
+                          		<td>Producto: </td>
+                          		<td><select name="producto" size="1">
+                            		<option value="letreros">Letreros</option>
+                            		<option value="Impresiones">Impresiones</option>
+                            		<option value="Señaletica">Señaletica</option>
+                            		<option value="Totems">Totems</option>
+                            		<option value="Vallas">Vallas</option>
+                            		<option value="Neon">Neón</option>
+                            		<option value="Placas">Placas</option>
+                            		<option value="Roll up">Roll up</option>
+                            		<option value="Displays">Displays</option>
+                          			</select>&nbsp;</td>
+                        	</tr>
+                        	<tr>
+                          		<td>Desea visita de nuestros asesores: </td>
+                          		<td><select name="visita" size="1">
+                            		<option value="desea visita">Si, deseo</option>
+                            		<option value="sin visita">No, deseo</option>
+                          		</select>&nbsp;</td>
+                        	</tr>
+                        	<tr>
+                          		<td></td>
+                          		<td><input type="submit" name="enviar2" id="enviar2" value="Enviar" /></td>
+                        	</tr>
+                      	</table></td></tr>
+                    </table>
+                </form>
+                <div><?php if(isset($_GET['msg'])) echo $_GET['msg']; ?></div>
+            </div>
+        </div>
+        <div id="footer">
+        	<div class="enlaces">
+            	<div>
+                	<ul> 
+     					<li class="menu-footer"> <a href="index.html"> Inicio </a></li>
+                    </ul>
+                    <ul> 
+     					<li class="menu-footer"> <a href="quienes.html"> ¿Quiénes somos? </a></li>
+                    </ul>
+                    <ul>
+                        <li class="menu-footer"> <a href="productos.html"> Productos </a></li>
+                	    <li> <a href="letreros.html"> Letreros </a></li>
+                        <li> <a href="impresiones.html"> Impresiones </a></li>
+                        <li> <a href="estructura.html"> Estructuras </a></li>
+                        <li> <a href="senaletica.html"> Señalética </a></li>
+                    </ul>
+                    <ul> 
+                	    <li class="menu-footer"> <a href="contacto.html"> Contáctanos </a></li>
+                    </ul>
+                    <ul> 
+                        <li class="menu-footer"> <a href="http://www.gruposovi.com"> GrupoSovi </a></li>
+                    	<li> <a href="http://www.cograletsa.gruposovi.com"> Cograletsa </a></li>
+                        <li> <a href="http://www.medialte.gruposovi.com"> Medialte </a></li>
+                        <li> <a href="http://www.aura.gruposovi.com"> Aura </a></li>
+                    </ul>
+                    <ul> 
+                        <li class="menu-footer"> <a href="images/logros.png" title="Logros" rel="gb_page_center[261, 360]"> Logros </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="derechos">
+            	<img src="images/logoabajo.png" />
+        		<div class="telefono"><a>Telefono: (04) - 2294555 Guayaquil - Ecuador</a></div>  
+  			</div>
+        </div>
+    </div>
+    </body>
+    <!--ShareSidebar.com BEGINS-->
+<style>
+.FBConnectButton_Small{background-position:-5px -232px !important;border-left:1px solid #1A356E}.FBConnectButton_Text{margin-left:12px !important;padding:2px 3px 3px !important}#ShareSidebar{top: 25%;width:69px;Left: 0 !important;overflow:hidden;position: fixed;z-index: 100000;text-align:center;line-height:normal;_position: absolute;font-size:9px;}#ShareSidebar a,#ShareSidebar a:hover,#ShareSidebar a:visited{text-decoration:none;font-size:9px;}</style><div id="ShareSidebar">
+<iframe style="float:left; margin:10px 0 0 12px; height:61px;" src="http://www.facebook.com/plugins/like.php?app_id=141440452603597&href=www.gruposovi.com&send=false&layout=box_count&show_faces=false&action=like&colorscheme=light&locale=en_US" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowTransparency="true"></iframe>
+<div style="float:left; margin:10px 0 0 10px;"><a name="fb_share" type="box_count" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></div>
+<div style="float:left; margin:10px 0 0 10px;"><script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script><g:plusone size="tall"></g:plusone></div>
+<div style="float:left; margin:10px 0 0 10px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></script></div>
+		
+<div style="float:left; margin:10px 0 0 5px; color:#000000; font-family:Arial, Helvetica, sans-serif; background-color:#F4295C; padding:2px 3px;"><a href="http://gruposovi.com" target="_blank"><font color="#ffffff">Grupo</font><font color="#000000">Sovi</font></a></div></div>
+<!--ShareSidebar.com ENDS-->
+     
+</html>  
+<style>
+	.page{
+		height: 370px;
+	}
+	.content-left{
+		float:right;
+		width:400px;
+		-moz-border-radius: 7px;
+		-webkit-border-radius:7px;
+		margin-right: 13px;
+		margin-top: 12px;
+	}
+    .content-left p {
+     	font-size: 11px;
+		padding-bottom: 20px;
+		padding-left: 14px;
+		padding-right: 21px;
+		text-align: justify;
+    }
+    .content-left h3{
+        color:#00a1e4;
+      	padding-left:10px;
+        width: 192px;
+        padding-top:10px;    
+        margin-right: 12px;
+        margin-top: 10px;
+    }
+    .direccioncontacto {
+		font-size:13px;
+		float: left;
+		margin-left: -475px;
+		margin-top: 0px;
+	}
+	.contacto{
+        font-size:15px;
+        float:right;    
+        margin-right: 41px;
+        color:black;
+        margin-top: 2px;   
+    }
+    .contacto input, textarea{
+    	font-size:15px;
+    }
+</style>
