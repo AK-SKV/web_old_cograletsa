@@ -95,12 +95,6 @@ document.oncontextmenu=new Function("alert(message);return false" )
      <body>
 	<div style="margin: 0 auto; text-align: center; position: relative">
           <div style="width: 900px; margin: 0 auto;">
-               <div class='nav-company'>
-                    <ul>
-                         <li class="inicio"> <a href="http://www.gruposovi.com">Grupo Sovi</a>  </li>
-                         <li> <a href="contacto.html">Contacto</a>  </li>
-                    </ul>
-               </div>
                <div class="banners">
                
                     <div class="banner">
